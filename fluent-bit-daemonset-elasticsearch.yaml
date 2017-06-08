@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fluent-bit
-        image: solsson/fluent-bit-kubernetes-kafka@sha256:e918c483bda278ec1c286201ccd4df02ece245a12613429878a835959bb75c23
+        image: solsson/fluent-bit-kubernetes-kafka@sha256:39694e4acf6a5a0a0754422ba40e5f0803f407b41b5ca33e7653c0e4b1f63582
         env:
           - name:  FLUENT_ELASTICSEARCH_HOST
             value: "elasticsearch-logging"
